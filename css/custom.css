@@ -17,13 +17,19 @@
 
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero {
+  background-image: url('../images/values-bg.png');
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
+}
 .phones {
   position: relative;
 }
 .phone {
   position: relative;
   max-width: 80%;
-  margin: 3rem auto -12rem;
+  margin: 2rem auto -12rem;
 }
 .phone + .phone {
   display: none;
@@ -32,7 +38,7 @@
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .values {
-  background-image: url('../images/values-bg.jpg');
+  background-image: url('../images/values-bg.png');
   background-size: cover;
   color: #fff;
   padding-bottom: 5rem;
@@ -58,7 +64,7 @@
 /* Categories
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .categories {
-  background-image: url('../images/values-bg.jpg');
+  background-image: url('../images/values-bg.png');
   background-size: cover;
   color: #fff;
 }
